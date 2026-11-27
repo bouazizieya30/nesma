@@ -1,0 +1,37 @@
+/* Niveau 1 : valeurs brutes (couleurs, tailles) */
+:root {
+  --olive-900: #2f3b17;
+  --olive-700: #4a5a28;
+  --sage-300: #b5b98f;
+  --cream-100: #f8f0e3;
+  --cream-50: #fcf8f0;
+  --orange-500: #e8812c;
+  --blue-600: #1f5fa8;
+
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --radius-md: 1rem;
+  --font-title: "Playfair Display", serif;
+  --font-text: "Poppins", sans-serif;
+}
+
+/* Niveau 2 : rôles (c'est ce que les composants utilisent) */
+:root {
+  --color-bg: var(--cream-100);
+  --color-surface: var(--cream-50);
+  --color-text: var(--olive-900);
+  --color-primary: var(--olive-700);
+  --color-on-primary: var(--cream-50);
+  --color-accent: var(--orange-500);
+  --color-link: var(--blue-600);
+}
+
+/* Mode sombre */
+[data-theme="dark"] {
+  --color-bg: var(--olive-900);
+  --color-surface: #3a4720;
+  --color-text: var(--cream-100);
+  --color-primary: var(--sage-300);
+  --color-on-primary: var(--olive-900);
+}
