@@ -3,6 +3,7 @@
   --olive-900: #2f3b17;
   --olive-700: #4a5a28;
   --sage-300: #b5b98f;
+  --sand-300: #d9d3b6;
   --cream-100: #f8f0e3;
   --cream-50: #fcf8f0;
   --orange-500: #e8812c;
@@ -25,6 +26,9 @@
   --color-on-primary: var(--cream-50);
   --color-accent: var(--orange-500);
   --color-link: var(--blue-600);
+  --color-border: var(--sand-300);
+  --color-badge-bg: var(--sage-300);
+  --color-badge-text: var(--olive-900);
 }
 
 /* Mode sombre */
@@ -34,4 +38,5 @@
   --color-text: var(--cream-100);
   --color-primary: var(--sage-300);
   --color-on-primary: var(--olive-900);
+  --color-border: #56632f;
 }
